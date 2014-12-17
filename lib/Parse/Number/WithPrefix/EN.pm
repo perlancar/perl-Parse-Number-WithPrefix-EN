@@ -1,5 +1,8 @@
 package Parse::Number::WithPrefix::EN;
 
+# DATE
+# VERSION
+
 # - can recognize metric prefix (base-10) vs binary prefix (base-2). KiB etc or
 #   KB can be made to mean metric prefix.
 
@@ -17,8 +20,6 @@ package Parse::Number::WithPrefix::EN;
 use 5.010;
 use strict;
 use warnings;
-
-# VERSION
 
 use Exporter::Lite;
 our @EXPORT_OK = qw($Pat parse_number_en);
@@ -58,8 +59,7 @@ sub parse_number_en {
 }
 
 1;
-# ABSTRACT: Pattern to match number
-__END__
+# ABSTRACT:
 
 =head1 SYNOPSIS
 
