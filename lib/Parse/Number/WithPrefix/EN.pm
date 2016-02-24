@@ -17,11 +17,11 @@ package Parse::Number::WithPrefix::EN;
 # - option to parse other prefix? w (week), h (hour)...? are there already
 # datetime format module to do this?
 
-use 5.010;
+use 5.010001;
 use strict;
 use warnings;
 
-use Exporter::Lite;
+use Exporter qw(import);
 our @EXPORT_OK = qw($Pat parse_number_en);
 
 our %SPEC;
